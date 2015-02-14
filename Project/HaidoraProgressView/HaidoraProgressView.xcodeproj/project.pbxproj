@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8659841A72332E0040BAF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8659831A72332E0040BAF8 /* main.m */; };
+		AB8659871A72332E0040BAF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8659861A72332E0040BAF8 /* AppDelegate.m */; };
+		AB86598A1A72332E0040BAF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8659891A72332E0040BAF8 /* ViewController.m */; };
+		AB86598D1A72332E0040BAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB86598B1A72332E0040BAF8 /* Main.storyboard */; };
+		AB86598F1A72332E0040BAF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB86598E1A72332E0040BAF8 /* Images.xcassets */; };
+		AB8659921A72332E0040BAF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8659901A72332E0040BAF8 /* LaunchScreen.xib */; };
+		AB86599E1A72332E0040BAF8 /* HaidoraProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB86599D1A72332E0040BAF8 /* HaidoraProgressViewTests.m */; };
+		AB8659AC1A7233720040BAF8 /* HDProgressViewShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8659AB1A7233720040BAF8 /* HDProgressViewShapeLayer.m */; };
+		AB8659AF1A7238440040BAF8 /* HDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8659AE1A7238440040BAF8 /* HDProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB8659981A72332E0040BAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8659761A72332E0040BAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB86597D1A72332E0040BAF8;
+			remoteInfo = HaidoraProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB86597E1A72332E0040BAF8 /* HaidoraProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaidoraProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8659821A72332E0040BAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8659831A72332E0040BAF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB8659851A72332E0040BAF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB8659861A72332E0040BAF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB8659881A72332E0040BAF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB8659891A72332E0040BAF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB86598C1A72332E0040BAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB86598E1A72332E0040BAF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB8659911A72332E0040BAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB8659971A72332E0040BAF8 /* HaidoraProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB86599C1A72332E0040BAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB86599D1A72332E0040BAF8 /* HaidoraProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaidoraProgressViewTests.m; sourceTree = "<group>"; };
+		AB8659A91A7233520040BAF8 /* HaidoraProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaidoraProgressView.h; sourceTree = "<group>"; };
+		AB8659AA1A7233720040BAF8 /* HDProgressViewShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDProgressViewShapeLayer.h; sourceTree = "<group>"; };
+		AB8659AB1A7233720040BAF8 /* HDProgressViewShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDProgressViewShapeLayer.m; sourceTree = "<group>"; };
+		AB8659AD1A7238440040BAF8 /* HDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDProgressView.h; sourceTree = "<group>"; };
+		AB8659AE1A7238440040BAF8 /* HDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB86597B1A72332E0040BAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8659941A72332E0040BAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8659751A72332E0040BAF8 = {
+			isa = PBXGroup;
+			children = (
+				AB8659A71A72333D0040BAF8 /* Resource */,
+				AB8659A81A72333D0040BAF8 /* Source */,
+				AB8659801A72332E0040BAF8 /* HaidoraProgressView */,
+				AB86599A1A72332E0040BAF8 /* HaidoraProgressViewTests */,
+				AB86597F1A72332E0040BAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB86597F1A72332E0040BAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB86597E1A72332E0040BAF8 /* HaidoraProgressView.app */,
+				AB8659971A72332E0040BAF8 /* HaidoraProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8659801A72332E0040BAF8 /* HaidoraProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AB8659851A72332E0040BAF8 /* AppDelegate.h */,
+				AB8659861A72332E0040BAF8 /* AppDelegate.m */,
+				AB8659881A72332E0040BAF8 /* ViewController.h */,
+				AB8659891A72332E0040BAF8 /* ViewController.m */,
+				AB86598B1A72332E0040BAF8 /* Main.storyboard */,
+				AB86598E1A72332E0040BAF8 /* Images.xcassets */,
+				AB8659901A72332E0040BAF8 /* LaunchScreen.xib */,
+				AB8659811A72332E0040BAF8 /* Supporting Files */,
+			);
+			path = HaidoraProgressView;
+			sourceTree = "<group>";
+		};
+		AB8659811A72332E0040BAF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8659821A72332E0040BAF8 /* Info.plist */,
+				AB8659831A72332E0040BAF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB86599A1A72332E0040BAF8 /* HaidoraProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB86599D1A72332E0040BAF8 /* HaidoraProgressViewTests.m */,
+				AB86599B1A72332E0040BAF8 /* Supporting Files */,
+			);
+			path = HaidoraProgressViewTests;
+			sourceTree = "<group>";
+		};
+		AB86599B1A72332E0040BAF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB86599C1A72332E0040BAF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB8659A71A72333D0040BAF8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = ../../Resource;
+			sourceTree = "<group>";
+		};
+		AB8659A81A72333D0040BAF8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AB8659A91A7233520040BAF8 /* HaidoraProgressView.h */,
+				AB8659AD1A7238440040BAF8 /* HDProgressView.h */,
+				AB8659AE1A7238440040BAF8 /* HDProgressView.m */,
+				AB8659AA1A7233720040BAF8 /* HDProgressViewShapeLayer.h */,
+				AB8659AB1A7233720040BAF8 /* HDProgressViewShapeLayer.m */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB86597D1A72332E0040BAF8 /* HaidoraProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8659A11A72332E0040BAF8 /* Build configuration list for PBXNativeTarget "HaidoraProgressView" */;
+			buildPhases = (
+				AB86597A1A72332E0040BAF8 /* Sources */,
+				AB86597B1A72332E0040BAF8 /* Frameworks */,
+				AB86597C1A72332E0040BAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaidoraProgressView;
+			productName = HaidoraProgressView;
+			productReference = AB86597E1A72332E0040BAF8 /* HaidoraProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB8659961A72332E0040BAF8 /* HaidoraProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8659A41A72332E0040BAF8 /* Build configuration list for PBXNativeTarget "HaidoraProgressViewTests" */;
+			buildPhases = (
+				AB8659931A72332E0040BAF8 /* Sources */,
+				AB8659941A72332E0040BAF8 /* Frameworks */,
+				AB8659951A72332E0040BAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8659991A72332E0040BAF8 /* PBXTargetDependency */,
+			);
+			name = HaidoraProgressViewTests;
+			productName = HaidoraProgressViewTests;
+			productReference = AB8659971A72332E0040BAF8 /* HaidoraProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8659761A72332E0040BAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Haidora;
+				TargetAttributes = {
+					AB86597D1A72332E0040BAF8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AB8659961A72332E0040BAF8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AB86597D1A72332E0040BAF8;
+					};
+				};
+			};
+			buildConfigurationList = AB8659791A72332E0040BAF8 /* Build configuration list for PBXProject "HaidoraProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8659751A72332E0040BAF8;
+			productRefGroup = AB86597F1A72332E0040BAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB86597D1A72332E0040BAF8 /* HaidoraProgressView */,
+				AB8659961A72332E0040BAF8 /* HaidoraProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB86597C1A72332E0040BAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB86598D1A72332E0040BAF8 /* Main.storyboard in Resources */,
+				AB8659921A72332E0040BAF8 /* LaunchScreen.xib in Resources */,
+				AB86598F1A72332E0040BAF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8659951A72332E0040BAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB86597A1A72332E0040BAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB86598A1A72332E0040BAF8 /* ViewController.m in Sources */,
+				AB8659871A72332E0040BAF8 /* AppDelegate.m in Sources */,
+				AB8659841A72332E0040BAF8 /* main.m in Sources */,
+				AB8659AF1A7238440040BAF8 /* HDProgressView.m in Sources */,
+				AB8659AC1A7233720040BAF8 /* HDProgressViewShapeLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8659931A72332E0040BAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB86599E1A72332E0040BAF8 /* HaidoraProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB8659991A72332E0040BAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB86597D1A72332E0040BAF8 /* HaidoraProgressView */;
+			targetProxy = AB8659981A72332E0040BAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB86598B1A72332E0040BAF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB86598C1A72332E0040BAF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8659901A72332E0040BAF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8659911A72332E0040BAF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB86599F1A72332E0040BAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8659A01A72332E0040BAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8659A21A72332E0040BAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaidoraProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB8659A31A72332E0040BAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaidoraProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB8659A51A72332E0040BAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaidoraProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaidoraProgressView.app/HaidoraProgressView";
+			};
+			name = Debug;
+		};
+		AB8659A61A72332E0040BAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaidoraProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaidoraProgressView.app/HaidoraProgressView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8659791A72332E0040BAF8 /* Build configuration list for PBXProject "HaidoraProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB86599F1A72332E0040BAF8 /* Debug */,
+				AB8659A01A72332E0040BAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8659A11A72332E0040BAF8 /* Build configuration list for PBXNativeTarget "HaidoraProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8659A21A72332E0040BAF8 /* Debug */,
+				AB8659A31A72332E0040BAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB8659A41A72332E0040BAF8 /* Build configuration list for PBXNativeTarget "HaidoraProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8659A51A72332E0040BAF8 /* Debug */,
+				AB8659A61A72332E0040BAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8659761A72332E0040BAF8 /* Project object */;
+}
